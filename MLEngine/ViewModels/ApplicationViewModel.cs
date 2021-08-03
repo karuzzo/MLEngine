@@ -25,7 +25,7 @@ namespace MLEngine.ViewModels
 
             MLmodels = new ObservableCollection<MLmodel>
             {
-                new MLmodel {TitleModel = "Select Task", FileNameModel = "Select Model File", PostfixModel = "ZeroMQ Name"},
+                new MLmodel {TitleModel = "Select Task", FileNameModel = "Select Model File", PostfixModel = "RPC Name"},
             };
 
             MyExperimentTime = "180";
@@ -302,7 +302,7 @@ namespace MLEngine.ViewModels
                 return addModelCommand ?? // присваиваем если null
                   (addModelCommand = new RelayCommand(obj =>
                   {
-                      MLmodel mLmodel = new MLmodel() { TitleModel = "Select Task", FileNameModel = "Select Model File", PostfixModel = "ZeroMQ Name" };
+                      MLmodel mLmodel = new MLmodel() { TitleModel = "Select Task", FileNameModel = "Select Model File", PostfixModel = "RPC Name" };
                       MLmodels.Add(mLmodel);
                       SelectedMLmodel = mLmodel;
                   }));
