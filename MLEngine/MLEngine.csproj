@@ -233,7 +233,7 @@
     <Compile Include="Entities\BarLoadMulti.cs" />
     <Compile Include="Entities\BarLoadTimeSeries.cs" />
     <Compile Include="Entities\BarLoadTimeSeriesPrediction.cs" />
-    <Compile Include="Entities\RPCBus.cs" />
+    <Compile Include="Models\RPCBus.cs" />
     <Compile Include="Models\Listener.cs" />
     <Compile Include="Models\MLmodel.cs" />
     <Compile Include="Models\ModelTrainer.cs" />
