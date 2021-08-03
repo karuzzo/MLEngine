@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLEngine", "MLEngine\MLEngine.csproj", "{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Debug|x64.Build.0 = Debug|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Release|x64.ActiveCfg = Release|Any CPU
+		{D84FA8F9-E5C7-4EBF-8A78-2A96AF257F16}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4E6B76E-3200-4930-9643-DFCF312C5163}
+	EndGlobalSection
+EndGlobal
